@@ -6,7 +6,15 @@ target 'hackernews' do
   # Pods for hackernews
   pod 'RealmSwift' 
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
   pod 'Firebase/Storage'
   pod 'Firebase/Messaging'
+  pod 'Alamofire'
+  pod 'ObjectMapper'
+  pod 'ReachabilitySwift'
+  pod 'Sniffer'
+  pod 'RxSwift'
+  pod 'RxDataSources'
+  pod 'RxCocoa'
 
 end
