@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>577340333905-4nt3pi0qp1o28f60vj0inlq5cjcmlv8d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.577340333905-4nt3pi0qp1o28f60vj0inlq5cjcmlv8d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAUm-V1m25xGz69LSRn0F8KhCP5HT51uA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>577340333905</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.urbanpiper.hackernews</string>
+	<key>PROJECT_ID</key>
+	<string>hackernews-muthu</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hackernews-muthu.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:577340333905:ios:e7e832a9ff96648e</string>
+	<key>DATABASE_URL</key>
+	<string>https://hackernews-muthu.firebaseio.com</string>
+</dict>
+</plist>
