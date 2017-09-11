@@ -15,3 +15,7 @@ protocol ArticlesListViewModelType: BaseViewModelType {
 class ArticlesViewModel: BaseViewModel, ArticleDetailViewModelType {
     
 }
+
+extension ArticlesViewModel {
+    
+}

@@ -9,6 +9,7 @@ target 'hackernews' do
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
   pod 'Firebase/Messaging'
+  pod 'GoogleSignIn'
   pod 'Alamofire'
   pod 'ObjectMapper'
   pod 'ReachabilitySwift'

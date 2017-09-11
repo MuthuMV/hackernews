@@ -37,6 +37,11 @@ PODS:
     - FirebaseAnalytics (~> 4.0)
     - FirebaseCore (~> 4.0)
     - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleSignIn (4.1.0):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
   - GoogleToolboxForMac/DebugUtils (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/Defines (2.1.1)
@@ -49,7 +54,13 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.11):
+    - GTMSessionFetcher/Full (= 1.1.11)
   - GTMSessionFetcher/Core (1.1.11)
+  - GTMSessionFetcher/Full (1.1.11):
+    - GTMSessionFetcher/Core (= 1.1.11)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
@@ -78,6 +89,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Messaging
   - Firebase/Storage
+  - GoogleSignIn
   - ObjectMapper
   - ReachabilitySwift
   - RealmSwift
@@ -96,7 +108,9 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: c4c7fca62c7b7330caee5da04f19a37ea37bb1c1
   FirebaseMessaging: 85af6c27188538b3a6f7dfd0b3b0596358cb0c39
   FirebaseStorage: 661fc1f8d4131891d256b62e82a45ace8b3f0c3b
+  GoogleSignIn: 8c599fc10d25b2af86a3f82fd9631e863f2b1400
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   ObjectMapper: 3d571bb5af471c779e1160828cd9ad5c4ef90958
@@ -109,6 +123,6 @@ SPEC CHECKSUMS:
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
   Sniffer: 420734514c29f4f0a79fc3b477e8443b9129b996
 
-PODFILE CHECKSUM: 3bab157e7b6baffba3bc4ecbd3d802893622964c
+PODFILE CHECKSUM: c126fc29ff7a27d7838062e85d4c079683a4049a
 
 COCOAPODS: 1.2.0
